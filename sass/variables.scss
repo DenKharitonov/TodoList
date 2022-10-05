@@ -1,0 +1,60 @@
+:root {
+  --content-padding-mobile: 20px;
+  --content-padding-tablet: 30px;
+  --content-padding-desktop: 40px;
+  --content-width-mobile: ($mobile-width - var(--content-padding-mobile) * 2);
+  --content-width-tablet: ($tablet-width - var(--content-padding-tablet) * 2);
+  --content-width-desktop: ($desktop-width - var(--content-padding-desktop) * 2);
+}
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1300px;
+
+$font-family-base: "Arial", "Oswald", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 24px;
+$font-family-heading: "Oswald",  "Arial", sans-serif;
+
+$black: #111111;
+$white: #ffffff;
+
+$bg-color-button: #68b738;
+$bg-color-button--hover: #5eaa2f;
+$bg-color-button--active: #5eaa2f;
+$bg-color-button--disabled: #eaeaea;
+
+$bg-color-back: #f2f2f2;
+$border-color-item: #e7e7e7;
+$border-color-product: #cdcdcd;
+
+$font-color-base: #444444;
+$font-color-secondary: $white;
+$font-color-heading: $black;
+
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.mobile-hidden {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: inline;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
