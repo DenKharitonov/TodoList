@@ -1,0 +1,59 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 13px auto;
+  border: 1px solid #b3b3ff;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0 12px 25px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  animation: grow 1.5s;
+}
+
+.content__header {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+
+  margin-bottom: 80px;
+
+  color: #b3b3ff;
+}
+
+.content__form {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  outline: none;
+
+  color: #888;
+
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+
+  &:focus {
+    border-color: #b3b3ff;
+  }
+}
+
+.content__body-header {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: 300;
+  color: #888;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  border-bottom: 1px solid #cbcbb3;
+}
+
+
+.content__todo-counter {
+  display: block;
+  margin: 10px;
+  color: #888;
+}

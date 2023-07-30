@@ -1,0 +1,48 @@
+.button {
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 40px;
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  outline: none;
+  opacity: 0.3;
+
+  &:hover {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+
+
+.button--delete:after {
+  content: url('/img/icons/delete_FILL0_wght300_GRAD0_opsz24.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.button--edit:after {
+  content: url('/img/icons/edit_FILL0_wght300_GRAD0_opsz24.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.button--up:after {
+  content: url('/img/icons/arrow_upward_FILL0_wght300_GRAD0_opsz24.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.button--down:after {
+  content: url('/img/icons/arrow_downward_FILL0_wght300_GRAD0_opsz24.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+
