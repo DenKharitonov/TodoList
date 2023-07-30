@@ -1,7 +1,5 @@
 'use strict';
 
-//создаем тудушки.
-
 const todoList = [];
 const todos = document.querySelector('.todos');
 const inputField = document.querySelector('.content__form');
@@ -147,10 +145,7 @@ inputField.addEventListener('keypress', function(e) {
     counter.innerText = `You have: ${todos.children.length + 1} left`;
 
     let liAttr = Math.floor(Math.random() * 1000);
-    console.log(liAttr);
     li.setAttribute('id', liAttr);
-    console.log(li);
-
     todos.append(li);
   }        
 });   
