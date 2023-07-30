@@ -11,26 +11,24 @@ $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1300px;
 
-$font-family-base: "Arial", "Oswald", sans-serif;
-$font-size-base: 16px;
+$font-family-base: "Open-Sans", sans-serif;
+$font-size-base: 15px;
+$font-size-label: 18px;
 $line-height-base: 24px;
 $font-family-heading: "Oswald",  "Arial", sans-serif;
 
-$black: #111111;
-$white: #ffffff;
 
-$bg-color-button: #68b738;
-$bg-color-button--hover: #5eaa2f;
-$bg-color-button--active: #5eaa2f;
-$bg-color-button--disabled: #eaeaea;
 
-$bg-color-back: #f2f2f2;
-$border-color-item: #e7e7e7;
-$border-color-product: #cdcdcd;
 
-$font-color-base: #444444;
-$font-color-secondary: $white;
-$font-color-heading: $black;
+$bg-color-button--hover: #2f2f1e;
+$input-text-color--focus: #333;
+$content-form-color--focus: #b3b3ff;
+$bg-color-back: #ebebe0;
+$heading-color: #b3b3ff;
+
+$font-color-base: #b3b3ff;
+$font-color-second: #ffb3b3;
+$font-color-third: #94b8b8;
 
 
 .visually-hidden {

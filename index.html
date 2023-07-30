@@ -7,37 +7,28 @@
     <title>Todo List</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body class="page">
     <div class = "color-container">
       <ul class="colors">
-        <li class="colors__first colors__first--default"></li>
-        <li class="colors__second"></li>
-        <li class="colors__third"></li>
+        <li class="colors__item colors__item--first colors__item--selected"></li>
+        <li class="colors__item colors__item--second"></li>
+        <li class="colors__item colors__item--third"></li>
       </ul>
-
+    </div>
       <div class="content content__container">
         <h1 class="content__header">todos</h1>
-        <input class="content__form content__form--text" type="text" placeholder="What needs to be done">
+        <input class="content__form content__form--text" type="text" placeholder="What needs to be done?">
         <div class="content__body">
           <h2 class="content__body-header">let's do this!</h2>
-          <ul class="todo__container">
-            <li class="todo__container-item">
-              <input class="todo__container-item-checkbox" name="todoitem" type="checkbox">
-              <label class="todo__container-item-label" for="todoitem"></label>
-              <input type="todo__container-item-text content__form--text" type="text">
-              <button class="button button--delete"></button>
-              <button class="button button--edit"></button>
-              <button class="button button--down"></button>
-              <button class="button button--up"></button>
-            </li>
+          <ul class="todos">
           </ul>
-          <span class="content__todo-counter"> You have: left</span>
+          <span class="content__todo-counter"> You have: 0 left</span>
         </div>
       </div>
-    </div>
     <footer class="page-footer">
-      <p class="page-footer__content">&copy 2022</p>
+      <p class="page-footer__content">&copy 2023</p>
     </footer>
   <script src="js/main.min.js"></script>
   </body>

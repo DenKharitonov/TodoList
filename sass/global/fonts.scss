@@ -11,3 +11,17 @@
   src: url(../fonts/oswald-medium.woff2) format("woff2"),
   url(../fonts/oswald-medium.woff) format("woff");
 }
+
+@font-face {
+  font-family: "Open-Sans";
+  font-weight: 400;
+  src: url(../fonts/open-sans-v34-latin_cyrillic-regular.woff2) format("woff2"),
+  url(../fonts/open-sans-v34-latin_cyrillic-regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  font-weight: 500;
+  src: url(../fonts/open-sans-v34-latin_cyrillic-500.woff2) format("woff2"),
+  url(../fonts/open-sans-v34-latin_cyrillic-500.woff) format("woff");
+}
